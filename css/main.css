@@ -1,11 +1,14 @@
 body {
-  background: url('../img/IMG_2058.png');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
   font-family: -apple-system-body, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   letter-spacing: 0.034em;
   color: #272727de;
+}
+
+#background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .sidebar {
